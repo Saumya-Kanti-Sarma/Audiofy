@@ -1,0 +1,236 @@
+img {
+  width: 180px;
+}
+
+.topmost {
+  display: flex;
+  height: 70px;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.topmost img,
+.input-area img {
+  width: 150px;
+}
+
+.input-area {
+  margin: 0 auto;
+  width: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-area input {
+  border: 1px solid rgba(0, 0, 0, 0.442);
+  width: 100%;
+  height: 70px;
+  font-size: x-large;
+}
+
+.input-search-btn {
+  border: none;
+  background: #ff4500;
+  height: 76px;
+  border-radius: 4px;
+  margin-left: 5px;
+}
+
+.input-search-btn img {
+  width: 100px;
+  height: 70px;
+}
+
+.tut-area {
+  margin-top: 50px;
+}
+
+.heading-area {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+
+.heading-area h2 {
+  font-size: 45px;
+}
+
+.download-btn {
+  justify-content: center;
+  margin-top: 30px;
+  display: flex;
+}
+
+.download-btn button {
+  width: 200px;
+  font-size: larger;
+  height: 70px;
+  border-radius: 3px;
+  background: #dcdcdc88;
+  border: none;
+  opacity: 0.5;
+}
+
+.tut-list {
+  margin: 0 auto;
+  padding: 0;
+  width: 850px;
+
+}
+
+.tut-list li {
+  font-size: 28px;
+  margin: 25px 0;
+}
+
+@media (max-width: 805px) {
+  .input-area {
+    width: 500px;
+  }
+
+  .topmost img {
+    width: 120px;
+  }
+
+  .topmost h1 {
+    font-size: 30px;
+  }
+
+  .download-btn button {
+    width: 160px;
+    height: 60px;
+
+  }
+
+  .tut-area {
+    margin-top: 40px;
+  }
+
+  .heading-area h2 {
+    font-size: 35px;
+  }
+
+  .heading-area img {
+    width: 15em;
+  }
+
+  .tut-list {
+    width: calc(100% - 200px);
+  }
+
+  .tut-list li {
+    font-size: 20px;
+    margin: 25px 0;
+  }
+}
+
+@media (max-width: 555px) {
+  .input-area {
+    width: 400px;
+  }
+
+  .topmost img {
+    width: 100px;
+  }
+
+  .topmost h1 {
+    font-size: 27px;
+  }
+
+  .download-btn button {
+    width: 120px;
+    height: 60px;
+
+  }
+
+  .tut-area {
+    margin-top: 40px;
+  }
+
+  .heading-area h2 {
+    font-size: 30px;
+  }
+
+  .heading-area img {
+    width: 12em;
+  }
+
+  .tut-list {
+    width: calc(100% - 200px);
+  }
+
+  .tut-list li {
+    font-size: 17px;
+    margin: 25px 0;
+  }
+
+  .input-area input {
+    height: 50px;
+    font-size: 20px;
+  }
+
+  .input-search-btn {
+    height: 56px;
+  }
+
+  .input-search-btn img {
+    width: 80px;
+    height: 56px;
+  }
+}
+
+@media (max-width: 320px) {
+  .topmost h1 {
+    font-size: 19px;
+  }
+
+  .topmost {
+    justify-content: start;
+  }
+
+  .topmost img {
+    width: 70px;
+  }
+
+  .input-area {
+    margin-left: 29px;
+    justify-content: start;
+  }
+
+  .input-area input {
+    width: 200px;
+    height: 40px;
+  }
+
+  .input-area button {
+    width: 50px;
+    height: 44px;
+  }
+
+  .input-area img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .download-btn button {
+    width: 100px;
+    height: 50px;
+    font-size: 14px;
+  }
+
+  .heading-area h2 {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .heading-area img {
+    width: 9em;
+  }
+
+  .tut-list {
+    width: 100%;
+  }
+}

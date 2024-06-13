@@ -1,0 +1,105 @@
+.main-nav-area,
+.img-area {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  cursor: default;
+}
+
+.img-area {
+  flex: 1;
+  justify-content: start;
+
+}
+
+.img-area img {
+  width: 80px;
+}
+
+.desktop-ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex: 3;
+}
+
+.desktop-ul li {
+  cursor: pointer;
+}
+
+.menu-btn {
+  display: none;
+}
+
+.menu-area {
+  position: absolute;
+  height: calc(100vh - 78px);
+  width: 240px;
+  margin-top: 4px;
+  background-color: #f6f6f6;
+  right: 0;
+  transition: 0.18s ease-in-out;
+  display: none;
+}
+
+.android-ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 80px;
+  overflow: hidden;
+}
+
+.android-ul li {
+  padding: 5px 100%;
+  transition: 0.12s linear;
+}
+
+.android-ul li:hover {
+  background-color: #c6c6c663;
+  padding: 5px 100%;
+}
+
+@media (max-width: 950px) {
+  .img-area h3 {
+    font-size: medium;
+  }
+
+  .img-area img {
+    width: 60px;
+  }
+
+}
+
+@media (max-width: 550px) {
+  .menu-btn {
+    display: block;
+    height: 60%;
+    margin: 0;
+    align-items: center;
+    border: none;
+  }
+
+  .menu-btn img {
+    width: 40px;
+  }
+
+  .img-area h3 {
+    font-size: large;
+  }
+
+  .img-area img {
+    width: 80px;
+  }
+
+  .menu-area {
+    display: block;
+  }
+
+  .desktop-ul {
+    display: none;
+  }
+}

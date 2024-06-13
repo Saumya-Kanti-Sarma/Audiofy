@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: Poppins;
+}
+
+li {
+  list-style: none;
+
+  cursor: default;
+}
+
+h3,
+h1,
+h2 {
+  margin: 0;
+  padding: 0;
+}
