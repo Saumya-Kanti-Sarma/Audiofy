@@ -76,7 +76,7 @@ img {
 
 .tut-list {
   margin: 0 auto;
-  padding: 0;
+  padding-left: 5px;
   width: 850px;
 
 }

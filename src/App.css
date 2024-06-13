@@ -21,5 +21,8 @@
 }
 
 .footer-bar {
-  height: 120px;
+  background-color: #030939;
+  color: #ffffff;
+  padding-bottom: 140px;
+  overflow: hidden;
 }
