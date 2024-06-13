@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './main.css'
+
 function Main() {
   const [videoUrl, setVideoUrl] = useState('');
   const [downloadLink, setDownloadLink] = useState('#');
@@ -7,11 +8,14 @@ function Main() {
   const [buttonColor, setButtonColor] = useState('#dcdcdc88');
   const [aColor, setaColor] = useState('#00000082');
   const [inputButtonColor, setInputButtonColor] = useState('#ff4500');
+
+  const APIkey = import.meta.env.API_KEY;
+  const APIhost = import.meta.env.HOST;
   const options = {
     method: 'GET',
     headers: {
-      'x-rapidapi-key': '80788fe660msh2a2d0abcc31a601p196e5bjsnff5e45309623',
-      'x-rapidapi-host': 'youtube-mp310.p.rapidapi.com'
+      'x-rapidapi-key': APIkey,
+      'x-rapidapi-host': APIhost
     }
   };
   useEffect(() => {
@@ -66,7 +70,7 @@ function Main() {
       <div className="download-btn">
         <button style={{ backgroundColor: buttonColor }}>
           <a href={downloadLink} style={{ color: aColor, textDecoration: 'none' }}>
-            {isLoading ? 'Loading...' : 'Download Now'}
+            {isLoading ? 'Loading...' : 'Download'}
           </a>
         </button>
       </div>

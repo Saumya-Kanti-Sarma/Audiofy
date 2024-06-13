@@ -8,7 +8,8 @@
 
 .main-area {
   height: calc(100vh - 70px);
-  overflow: auto;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
 .main-area::-webkit-scrollbar {
@@ -16,6 +17,7 @@
 }
 
 .main-bar {
+  width: 100%;
   min-height: calc(100vh - 70px);
   width: 100%;
 }
