@@ -182,13 +182,13 @@ img {
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 360px) {
   .topmost h1 {
     font-size: 19px;
   }
 
   .topmost {
-    justify-content: start;
+    justify-content: center;
   }
 
   .topmost img {
@@ -196,7 +196,7 @@ img {
   }
 
   .input-area {
-    margin-left: 29px;
+    margin-left: 55px;
     justify-content: start;
   }
 
