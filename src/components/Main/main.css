@@ -2,6 +2,12 @@ img {
   width: 180px;
 }
 
+a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+
+}
+
 .topmost {
   display: flex;
   height: 70px;
@@ -68,10 +74,14 @@ img {
   width: 200px;
   font-size: larger;
   height: 70px;
+  color: #00000082;
   border-radius: 3px;
   background: #dcdcdc88;
   border: none;
-  opacity: 0.5;
+}
+
+.download-btn button a {
+  color: black;
 }
 
 .tut-list {
