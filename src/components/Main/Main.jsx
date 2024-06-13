@@ -8,14 +8,11 @@ function Main() {
   const [buttonColor, setButtonColor] = useState('#dcdcdc88');
   const [aColor, setaColor] = useState('#00000082');
   const [inputButtonColor, setInputButtonColor] = useState('#ff4500');
-
-  const APIkey = import.meta.env.API_KEY;
-  const APIhost = import.meta.env.HOST;
   const options = {
     method: 'GET',
     headers: {
-      'x-rapidapi-key': APIkey,
-      'x-rapidapi-host': APIhost
+      'x-rapidapi-key': "80788fe660msh2a2d0abcc31a601p196e5bjsnff5e45309623",
+      'x-rapidapi-host': "youtube-mp310.p.rapidapi.com"
     }
   };
   useEffect(() => {
